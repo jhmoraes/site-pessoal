@@ -8,7 +8,7 @@ Site pessoal com currículo e portifólio
 
 ## ⚙️ Objetivo:
 - Página de portifóolio com meus projetos e trabalhos.
-- 
+
 ## ⚙️ Em construção.
 
 ## ⚙️ Tecnologias Usadas:
