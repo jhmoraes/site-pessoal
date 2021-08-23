@@ -7,7 +7,7 @@ Site pessoal com currículo e portifólio
 - [Juliana Moraes](https://github.com/jhmoraes)
 
 ## ⚙️ Objetivo:
-- Página de portifóolio com meus projetos e trabalhos.
+- Página de portifólio com meus projetos e trabalhos.
 
 ## ⚙️ Em construção.
 
