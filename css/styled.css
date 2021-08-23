@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: white;
+}
+
+header {
+    background-image: url(../img/imgTopo1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0rem 3rem;    
+    height: 7vh;    
+}
+
+nav p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;  
+    margin-left: 1rem;  
+    font-size: 1.2rem;
+    font-weight: lighter;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.top {
+    height: 63vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;    
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 6rem;
+}
+
+.name :nth-child(1){
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+
+.name :nth-child(2){
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.name :nth-child(3){
+    font-size: 1rem;
+}
+
+.networks {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.networks li{
+    margin-bottom: 1.3rem;
+    list-style-type: none;
+}
+
+.about {
+    background-color: #8d9977;
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 40vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    border-radius: 5px;
+    height: 40vh;
+    width: 20vw;
+}
+
+
+.description-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-about :nth-child(1){
+    font-size: 2.62rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.description-about :nth-child(2){
+    width: 23vw;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+.description-about li {
+    display: inline;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    margin-right: 0.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.description-about button {
+    margin-top: 3rem;
+    width: 7.30vw;
+    height: 3.17vh;
+    border-radius: 0.5rem;
+    background-color: #af430a;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.action {
+    background-color: #60a080;
+    height: 53vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action :nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.action :nth-child(2) {
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.action :nth-child(3) {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.education {
+    background-color: #4c574e;
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education p {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.container-education {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 80vw;
+    height: 40vh;
+}
+
+.container-education article{
+    width: 40vw;
+    height: 38vh;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    color: black;
+}
+
+.container-education li {
+    color: #292929;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+.container-education li:nth-child(1){
+    font-weight: bold;
+    font-size: 1.4rem;
+    height: 5vh;
+}
+
+.projects {
+    background-color: #ffffff;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects p {
+    margin: 3rem 0;
+    color: #292929;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.my-projects article {
+    height: 22vh;
+    width: 50vw;
+    margin-bottom: 15rem;
+   
+}
+
+.article1, .article2, .article3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.article1 :nth-child(1), 
+.article2 :nth-child(2),
+.article3 :nth-child(1) {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.article2 :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.article1 span,
+.article2 span,
+.article3 span {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #4c574e;
+    justify-content: flex-start !important;
+}
+
+.article1 h3,
+.article2 h3,
+.article3 h3 {
+    font-size: 1.5rem;
+    color: #4c574e;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.article1 p,
+.article2 p,
+.article3 p {
+    font-size: 1rem;
+    color: #4c574e;
+    font-weight: 400;
+    width: 20vw;
+    height: 15vh;
+    margin-top: 2rem;
+}
+
+.article2 p {
+    text-align: right;
+}
+
+.article1 button,
+.article2 button,
+.article3 button {
+    width: 7.30vw;
+    height: 3.17vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: #60a080;
+}
+
+.contract {
+    background-color: #8d9977;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 43vh;
+    padding: 2rem 0;
+    text-align: center;
+
+}
+
+.contract :nth-child(1) {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contract :nth-child(2) {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 30vw;
+}
+
+.contract :nth-child(3) {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.networks-contract {
+    margin-top: 2rem;
+}
+
+.networks-contract li {
+    display: inline;
+    margin: 0 0.5rem !important;
+}
+
+.copyright {
+    background-color: #4c574e;
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+
+
+@media screen and (max-width: 320px){
+    nav {
+        margin: 0rem 2rem;
+        height: 7vh;    
+    }
+    
+    nav p {
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+    nav li {  
+        margin-left: 0.1rem;  
+        font-size: 0.8rem;        
+    }
+
+    nav li:nth-child(2) {
+        display: none;  }
+        
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .top li {
+        display: inline;
+        margin: 0 0.2rem;
+    }
+    
+    .name {
+        margin-left: 2rem;
+
+    }
+    
+    .name :nth-child(1){
+        font-size: 2rem;
+    }
+    
+    .name :nth-child(2){
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .name :nth-child(3){
+        font-size: 0.9rem;
+    }
+    
+    .networks {   
+        margin: 0 0;
+    }
+    
+    .networks li{
+        margin: 0 0.5rem;
+    }
+
+    .container {
+        height: 60vh !important;
+        width: 85vw !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column-reverse;        
+    }
+    
+    .photo {
+        display: none;
+    }
+    
+    .photo img {
+        display: none;
+    }
+    
+    .description-about {
+        height: 72vh;
+    }
+    
+    .description-about :nth-child(1){
+        font-size: 1.3rem !important;
+        margin: 0 0 1rem 0;
+    }
+    
+    .description-about :nth-child(2){
+        width: 75vw;
+        font-size: 0.5rem;
+        text-align: start;
+    }
+    
+    .description-about li {
+        font-size: 0,2rem !important;
+    }
+    
+    .description-about button {
+        margin-top: 1rem;
+        width: 40vw;
+        height: 4vh;
+    }
+    
+    .action {
+        height: 73vh;
+    }
+    
+    .action :nth-child(1) {
+        font-size: 1.2rem;
+    }
+    
+    .action :nth-child(2) {
+        font-size: 2rem;
+    }
+    
+    .action :nth-child(3) {
+        font-size: 1rem;
+        width: 80vw;
+    }
+    
+    .education {
+        height: 190vh;
+        justify-content: flex-start;
+    }
+    
+    .education p {
+        margin: 2rem 0;
+    }
+    
+    .container-education {
+        flex-direction: column;
+        width: 80vw;
+    }
+    
+    .container-education article{
+        width: 85vw;
+        height: 58vh;
+        margin: 1rem 0;
+    }
+    
+    .container-education li {
+        margin: 1.1rem;
+        font-size: 0.9rem;
+    }
+    
+    .container-education li:nth-child(1){
+        font-size: 1rem;
+        height: 4vh;
+    }
+    
+    .projects {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+        
+    nav p {
+        font-size: 1rem;
+    }
+    
+    nav li {
+        font-size: 1rem;        
+    }
+    
+    .name {
+        margin: 0 2.1rem;
+    }
+
+    .about {
+        height: 110vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        height: 100vh !important;
+        width: 90vw !important;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .photo img {
+        border-radius: 5px;
+        height: 30vh !important;
+        width: 35vw !important;
+    }
+    
+    
+    .description-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .description-about :nth-child(1){
+        font-size: 2.62rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
+    
+    .description-about :nth-child(2){
+        width: 60vw !important;
+        font-size: 1rem;
+    }
+    
+    .description-about li {
+        font-size: 0.8rem !important;
+    }
+    
+    .description-about button {
+        margin: 2rem 0 !important;
+        width: 25vw !important;
+    }
+
+    .education {
+        height: 100vh;
+        justify-content: flex-start;
+        padding: 2rem 0;
+    }
+
+    
+    .container-education {
+        flex-wrap: wrap;
+        width: 94vw !important;
+        height: 80vh;
+    }
+    
+    .container-education article{
+        margin: 1rem 1rem !important;
+    }
+
+    .projects {
+        display: none;
+    }
+    
+    .contract :nth-child(2) {
+        margin: 2rem 0;
+        font-weight: 300;
+        font-size: 1rem !important;
+        width: 80vw !important;
+    }
+    
+    .contract :nth-child(3) {
+        font-weight: 300;
+        font-size: 1rem !important;
+    }
+	
+}
+
+@media screen and (max-width: 980px){
+    
+    .name :nth-child(1){
+        font-size: 2.2rem;
+    }
+
+    .about {
+        height: 63vh;
+        align-items: flex-start;
+        padding: 2rem 0;
+    }
+
+    .container {
+        width: 90vw;
+    }
+    
+    .photo {
+        width: 35vw;
+    }
+    
+    .photo img {
+        height: 30vh;
+        width: 20vw;
+    }
+    
+    .description-about {
+        width: 55vw;
+    }
+    
+    .description-about :nth-child(2){
+        width: 43vw;
+    }
+       
+    .description-about button {
+        margin-top: 3rem;
+        width: 20vw;
+        height: 4vh;
+    }
+
+    .action {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .action :nth-child(1) {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .action :nth-child(2) {
+        font-size: 2.7rem;
+        font-weight: bold;
+    }
+    
+    .action :nth-child(3) {
+        font-size: 1rem;
+        width: 90vw;
+    }
+    
+    .education {
+        height: 100vh !important;
+        justify-content: flex-start;
+        padding: 2rem 0;
+    }
+
+    
+    .container-education {
+        flex-wrap: wrap;
+        width: 90vw;
+        height: 80vh;
+    }
+    
+    .container-education article{
+        margin: 1rem 1rem;
+    }
+    
+    .container-education li {
+        margin: 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .container-education li:nth-child(1){
+        font-size: 1.2rem;
+    }
+
+    .my-projects {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects {
+        height: 180vh;
+    }
+     
+    .article1 :nth-child(1), 
+    .article2 :nth-child(2),
+    .article3 :nth-child(1) {
+       margin-right: 2rem;
+       width: 25vw; 
+    }
+    
+    .article2 :nth-child(1) {
+        margin-right: 2rem;
+    }   
+  
+    .article1 p,
+    .article2 p,
+    .article3 p {
+        width: 35vw;
+    }
+    
+    .article2 p {
+        margin-right: 2rem;
+    }
+    
+    .article1 button,
+    .article2 button,
+    .article3 button {
+        width: 20vw !important;
+        height: 4vh !important;
+    }
+        
+    .contract :nth-child(1) {
+        font-size: 2rem;
+    }
+    
+    .contract :nth-child(2) {
+        margin: 2rem 0;
+        font-weight: 300;
+        font-size: 1.2rem;
+        width: 60vw;
+    }
+    
+    .contract :nth-child(3) {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    
+    .networks-contract {
+        margin-top: 2rem;
+    }
+    
+    .networks-contract li {
+        display: inline;
+        margin: 0 0.5rem !important;
+    }    
+    
+    
+    .copyright {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1600px){
+    .about {
+        padding: 3rem 0;
+        height: 70vh;
+        align-items: flex-start;
+    }
+    
+    .education {
+        height: 63vh;
+    }
+    
+    .education p {
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+       
+    .container-education li {
+        margin: 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .container-education li:nth-child(1){
+        font-size: 0.9rem;
+    }
+    
+    .projects {
+        height: 180vh;
+    }
+     
+    .article1 :nth-child(1), 
+    .article2 :nth-child(2),
+    .article3 :nth-child(1) {
+       margin-right: 2rem;
+       width: 25vw; 
+    }
+    
+    .article2 :nth-child(1) {
+        margin-right: 2rem;
+    }
+    
+  
+    .article1 p,
+    .article2 p,
+    .article3 p {
+        width: 35vw;
+    }
+    
+    .article2 p {
+        margin-right: 2rem;
+    }
+    
+    .article1 button,
+    .article2 button,
+    .article3 button {
+        width: 12vw;
+        height: 4vh;
+    }
+    
+        
+    .contract {
+        height: 50vh;
+    }
+}
+
+
+
